@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>SignUp Page</title>
+	<link rel="stylesheet" href="style.css">
+    <script defer src="script.js">
+
+    </script>
+</head>
+<body>
+    
+	<div class="box" >
+		<form autocomplete="off" id="form">
+			<h2>Sign-Up</h2>
+			<div class="inputBox">
+				<input type="text" required="required" id="username" >
+				<span>Username</span>
+				<i></i>
+			</div>
+            <div class="inputBox">
+				<input type="email" required="required"  id="email">
+				<span>Email</span>
+				<i></i>
+			</div>
+			<div class="inputBox">
+				<input type="password" required="required" id="password">
+				<span>Password</span>
+				<i></i>
+			</div>
+            <div id="error"></div>
+			<input type="submit" value="Signup">
+		</form>
+	</div>
+</body>
+</html>
